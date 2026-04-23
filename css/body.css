@@ -1,0 +1,30 @@
+/* General */
+html, body {
+    min-height: 100%;
+    max-width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0.5%;
+    padding: 10px;
+    color: white;
+      min-width: 1000px;
+    background: linear-gradient(
+        to bottom,
+        #262223 0%,
+        #262223 45%,
+        #1b1a24 65%,
+        #080b28 100%
+    );
+    background-attachment: fixed;
+}
+/* Hide when screen width is 768px or less */
+@media (max-width: 1285px) {
+    .photo {
+        display: none;
+    }
+    .box {
+        display: none;
+    }
+}

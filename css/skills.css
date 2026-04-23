@@ -1,0 +1,58 @@
+
+.skills {
+  min-height: 100vh;
+  padding: 40px;
+  color: white;
+  justify-content: space-between;
+  width: 80%;
+  
+}
+
+.skills h1 {
+  text-align: center;
+  color: #ffd400;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.skill-box {
+  width: 48%;
+  border: 2px solid #ffd400;
+  border-radius: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.skill-box h2 {
+  color: #ffd400;
+  margin-bottom: 25px;
+}
+
+.skill {
+  margin-bottom: 18px;
+}
+
+.skill span {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.bar {
+  background: #e5e5e5;
+  height: 12px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: #ffd400;
+  border-radius: 20px;
+}
